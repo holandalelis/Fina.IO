@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Fina.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Fina.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fina.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fina.Core/1.0.0": {
+      "type": "project",
+      "path": "../Fina.Core/Fina.Core.csproj",
+      "msbuildProject": "../Fina.Core/Fina.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Fina.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pedro\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pedro\\Desktop\\Programação Aulas\\Projetos Cursos\\Fina\\fina.io\\Fina.Api\\Fina.Api.csproj",
+      "projectName": "Fina.Api",
+      "projectPath": "C:\\Users\\pedro\\Desktop\\Programação Aulas\\Projetos Cursos\\Fina\\fina.io\\Fina.Api\\Fina.Api.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pedro\\Desktop\\Programação Aulas\\Projetos Cursos\\Fina\\fina.io\\Fina.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.equipeblue.com.br/api/v4/projects/14/packages/nuget/index.json": {},
+        "https://gitlab.equipeblue.com.br/api/v4/projects/37/packages/nuget/index.json": {},
+        "https://gitlab.equipeblue.com.br/api/v4/projects/44/packages/nuget/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\pedro\\Desktop\\Programação Aulas\\Projetos Cursos\\Fina\\fina.io\\Fina.Core\\Fina.Core.csproj": {
+              "projectPath": "C:\\Users\\pedro\\Desktop\\Programação Aulas\\Projetos Cursos\\Fina\\fina.io\\Fina.Core\\Fina.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
