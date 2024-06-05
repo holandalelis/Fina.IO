@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fina.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f088e1201b5bf905ffee1c6a78d2db566c63f96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb03d397b2e71e01e920eecf3ad147d336c74667")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fina.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fina.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
